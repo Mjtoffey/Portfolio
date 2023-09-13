@@ -9,6 +9,7 @@ function Navbar() {
                 <li><Link to="/InfoPage">About</Link></li> {/* Use Link to navigate to "/about" */}
                 <li><Link to="/ProjectsPage">Projects</Link></li> {/* Use Link to navigate to "/projects" */}
                 <li><Link to="/ContactPage">Contact</Link></li> {/* Use Link to navigate to "/contact" */}
+                <li><Link to="/BlogPage">Blog Posts</Link></li>
             </ul>
         </nav>
     );
