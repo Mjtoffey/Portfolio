@@ -1,11 +1,25 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+import Card from 'react-bootstrap/Card';
+import './App.css';
+
 
 function ContactPage() {
     return (
-        <div className="contact-page" id="contact">
-            <h2>Contact Me</h2>
-            <p>If you'd like to get in touch with me, feel free to send me an email at:</p>
-            <a href="mailto:your.email@example.com">your.email@example.com</a>
+        <div className='contact-page'>
+            <div className="contact-card">
+                <Card style={{ width: '28rem' }}>
+                    <Card.Img variant="top" src=".\img\square_me.jpg" />
+                    <Card.Body>
+                        <Card.Title className='card-title'>Contact Me Here</Card.Title>
+                        <Card.Text className='card-text'>
+                            Some quick example text to build on the card title and make up the
+                            bulk of the card's content.
+                        </Card.Text>
+                    </Card.Body>
+                </Card>
+            </div>
         </div>
     );
 }

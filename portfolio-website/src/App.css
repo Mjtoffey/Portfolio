@@ -2,11 +2,11 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background-color: black;
 }
 
 .navbar {
-  background-color: #333;
+  background-color: black;
   color: #fff;
   padding: 1rem;
   display: flex;
@@ -25,7 +25,7 @@ body {
 
 .navbar a {
   text-decoration: none;
-  color: #fff;
+  color: white;
 }
 
 .info-page {
@@ -41,4 +41,23 @@ body {
 .info-page p {
   font-size: 1.2rem;
   color: #666;
+}
+
+.contact-card {
+  justify-content: center;
+  margin-left: 275px;
+  margin-right: 275px;
+  margin-top: 200px;
+}
+
+.card-title {
+  justify-content: center;
+  text-align: center;
+  border: #333;
+  border-style: line;
+}
+
+.card-text {
+  justify-content: center;
+  text-align: center;
 }
