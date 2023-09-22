@@ -5,13 +5,13 @@ function Navbar() {
     return (
         <nav className="navbar">
             <h1>
-                <Link to="App">My Portfolio</Link>
+                <Link to="/InfoPage">My Portfolio</Link>
             </h1>
             <ul>
                 <li><Link to="/InfoPage">About</Link></li>
                 <li><Link to="/ProjectsPage">Projects</Link></li>
                 <li><Link to="/ContactPage">Contact</Link></li>
-                <li><Link to="/BlogPage">Blog Posts</Link></li>
+                {/* <li><Link to="/BlogPage">Blog Posts</Link></li> */}
             </ul>
         </nav>
     );

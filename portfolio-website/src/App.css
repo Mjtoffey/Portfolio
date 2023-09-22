@@ -61,3 +61,37 @@ body {
   justify-content: center;
   text-align: center;
 }
+
+.about-me {
+  min-height: 100vh;
+  /* Ensure the section takes up the entire viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* Center vertically */
+  align-items: center;
+  /* Center horizontally */
+  background-color: #f8f9fa;
+}
+
+.about-me h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  /* Add some spacing below the heading */
+}
+
+.about-me p {
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  /* Center-align the text */
+}
+
+.about-me img {
+  max-width: 100%;
+  height: auto;
+}
+
+.abt-header {
+  justify-content: center;
+}
